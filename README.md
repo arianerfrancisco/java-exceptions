@@ -34,7 +34,7 @@
 </ul> 
     <h1> Bloco catch:  </h1>
   <ul> 
-     <li>  Região onde se encontra o possível tratamento da exceção. Isso significa que só será executado caso o bloco try apresentar alguma exceção.
+     <li>  Região onde se encontra o possível tratamento da exceção. Isso significa que só será executado caso o bloco try apresentar alguma exceção.</li>
    <li>    Recebe como argumento a classe ou subclasse da possível exceção.</li>
      <li>  No seu escopo ficam as instruções de como tratar essa exceção.</li>
      <li>  Pode haver mais de um bloco catch, porém, será executado apenas o primeiro bloco que identificar a exceção.</li>
@@ -42,7 +42,7 @@
 </ul> 
      <h1> Bloco finally:  </h1>
      <ul> 
-      <li> Este bloco é opcional, mas caso seja construído, quase sempre será executado. (A menos que seja forçada sua parada, por exemplo, com um System.exit(0), no catch)</li>
+      <li> Este bloco é opcional, mas caso seja construído, quase sempre será executado. (A menos que seja forçada sua parada, por exemplo, com um System.exit(0), no catch) </li>
       <li> Dentro do bloco finally, poderá conter outros blocos try, catch, bem como outro finally.</li>
      <li>  Geralmente utilizado quando precisamos executar algum código independente se ocorrer exception ou não. </li>
   </ul> 
@@ -58,9 +58,10 @@
 
     <h1>  Cláusula throw  </h1>
     <ul> 
-    <li>   É usada para lançar explicitamente uma exceção de um método ou de qualquer bloco de código.</li>
-     <li>  Usada principalmente para lançar exceções personalizadas</li>
-    Importante:
+    <li>   É usada para lançar explicitamente uma exceção de um método ou de qualquer bloco de código. </li>
+     <li>  Usada principalmente para lançar exceções personalizadas </li>
+     </ul> 
+   <p> Importante: </p> 
    <li>    O fluxo de execução "normal" do programa para imeditamente apos a execução da cláusula throw. O bloco try envolvente mais próximo é verificado para encontrar um bloco catch que corresponda ao tipo de exceção.</li>
      <li>  Caso encontre essa correspondência, o controlado é transferido para esse bloco. Caso contrário, o próximo bloco try envolvente é verificado e assim por diante.</li>
      <li>  Outro caso, é se nenhuma captura for encontrada, o manipulador da exceção padrão interromperá o programa.  </li>
