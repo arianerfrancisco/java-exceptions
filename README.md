@@ -25,6 +25,7 @@
 
 
 <h2>  🔸 Blocos try/catch-finally </h2>
+ <h3> Try:  </h3>
 <ul> 
   <li> Região onde se encontra o código que queremos verificar se irá ou não lançar uma exceção. </li>
   <li> Caso ocorra uma exceção em algum ponto, o restante do código contido no bloco try não será executado.  </li>
