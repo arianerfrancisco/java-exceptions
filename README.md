@@ -46,20 +46,20 @@
   </ul> 
 
 <h2> 🔸 Cláusulas throws e throw </h2>
+<h1> Cláusula throws  </h1>
+ <ul> 
+      <li> Usada na assinatura do método. </li>
+      <li> Necessária apenas para exceções checked. </li>
+     <li>  Informa ao chamador que este método pode lançar uma das exceções listadas no escopo do método. Isso obriga a fazer a captura dessa exception (try-catch) ou relançar o throws. </li>
+  </ul> 
+<h1> Cláusula throw  </h1>
+ <ul> 
+      <li>  É usada para lançar explicitamente uma exceção de um método ou de qualquer bloco de código. </li>
+      <li> Usada principalmente para lançar exceções personalizadas </li>    
+  </ul> 
 
-     <h1> Cláusula throws  </h1>
-     <ul> 
-      <li> Usada na assinatura do método.</li>
-      <li> Necessária apenas para exceções checked.</li>
-      <li> Informa ao chamador que este método pode lançar uma das exceções listadas no escopo do método. Isso obriga a fazer a captura dessa exception (try-catch) ou relançar o throws.</li>
-    </ul> 
-
-    <h1>  Cláusula throw  </h1>
-    <ul> 
-    <li>   É usada para lançar explicitamente uma exceção de um método ou de qualquer bloco de código. </li>
-     <li>  Usada principalmente para lançar exceções personalizadas </li>
-     </ul> 
    <p> Importante: </p> 
+   
    <li>    O fluxo de execução "normal" do programa para imeditamente apos a execução da cláusula throw. O bloco try envolvente mais próximo é verificado para encontrar um bloco catch que corresponda ao tipo de exceção.</li>
      <li>  Caso encontre essa correspondência, o controlado é transferido para esse bloco. Caso contrário, o próximo bloco try envolvente é verificado e assim por diante.</li>
      <li>  Outro caso, é se nenhuma captura for encontrada, o manipulador da exceção padrão interromperá o programa.  </li>
