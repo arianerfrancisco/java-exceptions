@@ -59,7 +59,7 @@
       <li> Usada principalmente para lançar exceções personalizadas </li>    
   </ul> 
 
-   <h4> 🟢 Importante: 🟢 </h4> 
+   <h2> 📢 Importante: </h4> 
    
    <li>    O fluxo de execução "normal" do programa para imeditamente apos a execução da cláusula throw. O bloco try envolvente mais próximo é verificado para encontrar um bloco catch que corresponda ao tipo de exceção.</li>
      <li>  Caso encontre essa correspondência, o controlado é transferido para esse bloco. Caso contrário, o próximo bloco try envolvente é verificado e assim por diante.</li>
