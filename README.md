@@ -70,3 +70,6 @@
 <h2> 📓 Documentação </h2>
 <strong> <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html"> Class Exception </a></strong>
 <h2> Este repositório foi criado para fins de estudo 🤝 </h2>
+<h2> Referências </h2>
+<strong> <a href="https://github.com/cami-la/exceptions-java/blob/master/src/br/com/dio/exceptions/DivisaoNaoExataException.java"> Camila Cavalcante - DIO  </a></strong>
+
