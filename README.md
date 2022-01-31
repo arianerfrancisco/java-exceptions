@@ -23,4 +23,5 @@
   <li> Ex: acessar um arquivo que não existe. </li>
 </ul>
 
-
+<h2> Documentação </h2>
+<strong> <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html"> Class Exception </a></strong>
