@@ -24,15 +24,15 @@
 </ul>
 
 
-<h2>  🔸 Blocos try/catch/finally </h2>
+<h2>  🔸 Blocos try/catch-finally </h2>
 
-     <h1> Bloco try:  </h1>
      <ul> 
-     <li>  Região onde se encontra o código que queremos verificar se irá ou não lançar uma exceção.</li>
-     <li>  Caso ocorra uma exceção em algum ponto, o restante do código contido no bloco try não será executado.</li>
-     <li>  O bloco try não pode ser declarado sozinho, por tanto, precisa estar seguido de um ou vários blocos catch e/ou de um bloco finally.</li>
+     <li>  Região onde se encontra o código que queremos verificar se irá ou não lançar uma exceção. </li>
+     <li>  Caso ocorra uma exceção em algum ponto, o restante do código contido no bloco try não será executado. </li>
+     <li>  O bloco try não pode ser declarado sozinho, por tanto, precisa estar seguido de um ou vários blocos catch e/ou de um bloco finally. </li>
 </ul> 
-    <h1> Bloco catch:  </h1>
+
+    <h2> Bloco catch:  </h2>
   <ul> 
      <li>  Região onde se encontra o possível tratamento da exceção. Isso significa que só será executado caso o bloco try apresentar alguma exceção.</li>
    <li>    Recebe como argumento a classe ou subclasse da possível exceção.</li>
